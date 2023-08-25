@@ -1,0 +1,39 @@
+1、配置自己的用户名为uuu，邮箱为uuu@163.com。（配置的用户名和邮箱就记录在 C盘的用户文件夹下的.gitconfig文件里）
+2、初始化git本地库
+3、新建一个文件aaa.txt，内容为
+aaaaa
+bbbbb
+ccccc
+4、查看此时的仓库状态
+5、将aaa.txt添加进暂存区
+6、将aaa.txt从暂存区删除
+7、再次将aaa.txt添加进暂存区
+6、将aaa.txt提交至仓库，日志为“first commit”（有时会提示提交失败，将.git里的index.lock删除即可）
+7、查看提交历史；查看提交历史详细信息
+8、修改aaa.txt为
+aaaaa 22222
+bbbbb
+ccccc
+9、将修改后的aaa.txt加入暂存区，提交至仓库，日志为“second commit”
+10、将版本切换到第一次提交，再切换回第二次提交
+11、查看当前所在分支
+12、创建新分支fix
+13、切换分支到fix
+14、修改aaa.txt
+aaaaa 22222
+bbbbb
+ccccc  fixfixfixfixfix
+15、将aaa.txt加入暂存区，提交仓库，日志“fix first commit”
+16、切换回master，修改aaa.txt
+aaaaa 22222
+bbbbb 33333
+ccccc  fixfixfixfixfix
+17、将aaa.txt添加进暂存区，提交仓库，日志“third commit”
+18、合并fix分支
+19、查看现在有哪些远程库别名
+20、给git@github.com:magic-ren/git_practice.git添加别名org_git_p
+21、更新本地库
+22、将本地库master分支推送到远程库；
+将本地库fix分支推送到远程库
+23、在远程库修改aaa.txt，提交日志为“origin_first_commit”
+24、更新本地库
